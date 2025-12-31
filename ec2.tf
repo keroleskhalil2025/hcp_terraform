@@ -3,6 +3,7 @@ resource "aws_instance" "demo-ec2" {
     instance_type = "t3.micro"
     tags = {
       Name = "demo-instance"
+      Team = "DevOps"
     }
 }
 
