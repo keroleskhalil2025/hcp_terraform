@@ -5,3 +5,4 @@ resource "aws_instance" "demo-ec2" {
       Name = "demo-instance"
     }
 }
+
